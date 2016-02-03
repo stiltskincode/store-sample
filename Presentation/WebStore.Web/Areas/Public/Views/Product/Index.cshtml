@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <h2>List of products</h2>
+    <div class="table-responsive">
+        <table class="table" ng-controller="ProductsController as productCtrl">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Categories</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="x in products">
+                    <td>{{ x.Id }}</td>
+                    <td>{{ x.Name }}</td>
+                    <td>{{ x.Description }}</td>
+                    <td>{{ x.Price | currency }}</td>
+                    <td>{{ x.Categories }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <a class="btn btn-success" href="/Product/Add/" role="button">Add product</a>
+        <a class="btn btn-info" href="/Category/Add/" role="button">Add category</a>
+    </div>
+</div>

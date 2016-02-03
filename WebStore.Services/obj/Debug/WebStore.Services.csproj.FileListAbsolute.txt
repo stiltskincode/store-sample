@@ -1,0 +1,7 @@
+C:\projects\Store\WebStore.Services\bin\Debug\WebStore.Services.dll
+C:\projects\Store\WebStore.Services\bin\Debug\WebStore.Services.pdb
+C:\projects\Store\WebStore.Services\bin\Debug\WebStore.Core.dll
+C:\projects\Store\WebStore.Services\bin\Debug\WebStore.Core.pdb
+C:\projects\Store\WebStore.Services\obj\Debug\WebStore.Services.csprojResolveAssemblyReference.cache
+C:\projects\Store\WebStore.Services\obj\Debug\WebStore.Services.dll
+C:\projects\Store\WebStore.Services\obj\Debug\WebStore.Services.pdb

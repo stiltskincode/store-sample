@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html ng-app="gemStore">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <!--[if lt IE 9]>
+      @Scripts.Render("~/bundles/oldIEBrowsersSupport")
+    <![endif]-->
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    @RenderBody()
+    @*@Scripts.Render("~/bundles/angularjs")*@
+
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-resource.min.js"></script>
+    <script src="~/Scripts/angular-animate.min.js"></script>
+    <script src="~/Scripts/angular-cookies.min.js"></script>
+    <script src="~/Scripts/angular-sanitize.min.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+
+    <script src="~/Scripts/app.js"></script>
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,4 @@
+C:\projects\Store\Libraries\WebStore.Core\bin\Debug\WebStore.Core.dll
+C:\projects\Store\Libraries\WebStore.Core\bin\Debug\WebStore.Core.pdb
+C:\projects\Store\Libraries\WebStore.Core\obj\Debug\WebStore.Core.dll
+C:\projects\Store\Libraries\WebStore.Core\obj\Debug\WebStore.Core.pdb

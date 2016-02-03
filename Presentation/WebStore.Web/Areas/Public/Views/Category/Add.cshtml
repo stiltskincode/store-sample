@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Add";
+}
+
+<div class="container" ng-controller="CategoryController as categoryCtrl">
+    <div class="panel panel-success" ng-show="success">
+        <div class="panel-heading">Category has been added!</div>
+    </div>
+    <!--  Review Form -->
+    <form name="categoryForm" ng-submit="categoryForm.$valid && categoryCtrl.addCategory(category)" novalidate>
+
+        <!--  Review Form -->
+        <h4>Add a Category</h4>
+        <fieldset class="form-group">
+            <input ng-model="category.Name" type="text" class="form-control" placeholder="Name..." title="Name" required />
+        </fieldset>
+        <fieldset class="form-group">
+            <input type="submit" class="btn btn-primary" value="Add" />
+            <a class="btn btn-info" href="/" role="button">Back</a>
+        </fieldset>
+    </form>
+</div>

@@ -1,0 +1,9 @@
+C:\projects\Store\Libraries\WebSotre.Data\bin\Debug\WebSotre.Data.dll.config
+C:\projects\Store\Libraries\WebSotre.Data\bin\Debug\WebSotre.Data.dll
+C:\projects\Store\Libraries\WebSotre.Data\bin\Debug\WebSotre.Data.pdb
+C:\projects\Store\Libraries\WebSotre.Data\bin\Debug\EntityFramework.dll
+C:\projects\Store\Libraries\WebSotre.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\projects\Store\Libraries\WebSotre.Data\bin\Debug\EntityFramework.xml
+C:\projects\Store\Libraries\WebSotre.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\projects\Store\Libraries\WebSotre.Data\obj\Debug\WebSotre.Data.dll
+C:\projects\Store\Libraries\WebSotre.Data\obj\Debug\WebSotre.Data.pdb

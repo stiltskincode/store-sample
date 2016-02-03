@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\projects\Store\Tests\WebSotre.Data.Tests\bin\Debug\WebStore.Data.Tests.dll" total="5" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-02-17" time="17:49:26">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\projects\Store\tools\NUnit-2.6.4\NUnit-2.6.4\bin" machine-name="MACIEK" user="lukasz" user-domain="MACIEK" />
+  <culture-info current-culture="pl-PL" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\projects\Store\Tests\WebSotre.Data.Tests\bin\Debug\WebStore.Data.Tests.dll" executed="True" result="Success" success="True" time="1.780" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="WebStore" executed="True" result="Success" success="True" time="1.779" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Data" executed="True" result="Success" success="True" time="1.778" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="1.777" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="PersistanceTests" executed="True" result="Success" success="True" time="1.777" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="CategoryPersistenceTests" executed="True" result="Success" success="True" time="0.388" asserts="0">
+                        <results>
+                          <test-case name="WebStore.Data.Tests.PersistanceTests.CategoryPersistenceTests.Can_save_and_load_category" executed="True" result="Success" success="True" time="0.385" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ProductCategoryPersistenceTests" executed="True" result="Success" success="True" time="0.354" asserts="0">
+                        <results>
+                          <test-case name="WebStore.Data.Tests.PersistanceTests.ProductCategoryPersistenceTests.Can_save_and_load_productCategory" executed="True" result="Success" success="True" time="0.352" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ProductPersistenceTests" executed="True" result="Success" success="True" time="0.711" asserts="0">
+                        <results>
+                          <test-case name="WebStore.Data.Tests.PersistanceTests.ProductPersistenceTests.Can_save_and_load_product" executed="True" result="Success" success="True" time="0.316" asserts="5" />
+                          <test-case name="WebStore.Data.Tests.PersistanceTests.ProductPersistenceTests.Can_save_and_load_product_with_productCategories" executed="True" result="Success" success="True" time="0.387" asserts="5" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ProductTagPersistenceTests" executed="True" result="Success" success="True" time="0.295" asserts="0">
+                        <results>
+                          <test-case name="WebStore.Data.Tests.PersistanceTests.ProductTagPersistenceTests.Can_save_and_load_productTag" executed="True" result="Success" success="True" time="0.293" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,6 @@
+C:\projects\Store\Tests\WebStore.Tests\bin\Release\WebStore.Tests.dll
+C:\projects\Store\Tests\WebStore.Tests\bin\Release\WebStore.Tests.pdb
+C:\projects\Store\Tests\WebStore.Tests\bin\Release\nunit.framework.dll
+C:\projects\Store\Tests\WebStore.Tests\bin\Release\nunit.framework.xml
+C:\projects\Store\Tests\WebStore.Tests\obj\Release\WebStore.Tests.dll
+C:\projects\Store\Tests\WebStore.Tests\obj\Release\WebStore.Tests.pdb

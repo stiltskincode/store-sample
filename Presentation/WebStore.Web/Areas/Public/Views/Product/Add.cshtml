@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+}
+
+<div class="container" ng-controller="ProductController as prodCtrl">
+    <div class="panel panel-success" ng-show="success">
+        <div class="panel-heading">Product has been added!</div>
+    </div>
+    <!--  Review Form -->
+    <form name="prodForm" ng-submit="prodForm.$valid && prodCtrl.addProduct(product)" novalidate>
+
+        <!--  Review Form -->
+        <h4>Add a Product</h4>
+        <fieldset class="form-group">
+            <input ng-model="product.Name" type="text" class="form-control" placeholder="Name..." title="Name" required />
+        </fieldset>
+        <fieldset class="form-group">
+            <textarea ng-model="product.Description" class="form-control" placeholder="Description..." title="Description"></textarea>
+        </fieldset>
+        <fieldset class="form-group">
+            <select ng-model="product.Category" class="form-control" ng-options="i.Name for i in categories" title="Category" required>
+                <option value="" disabled selected>Category...</option>
+            </select>
+        </fieldset>
+        <fieldset class="form-group">
+            <input ng-model="product.Price" type="number" class="form-control" placeholder="Price..." min="0" title="Name" required />
+        </fieldset>
+        <fieldset class="form-group">
+            <input ng-model="product.Keywords" type="text" class="form-control" placeholder="Keywords..." min="0" title="Name" required />
+        </fieldset>
+        <fieldset class="form-group">
+            <input type="submit" class="btn btn-primary" value="Add" />
+            <a class="btn btn-info" href="/" role="button">Back</a>
+        </fieldset>
+    </form>
+</div>

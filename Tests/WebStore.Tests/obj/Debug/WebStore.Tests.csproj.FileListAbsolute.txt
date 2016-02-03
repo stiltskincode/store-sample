@@ -1,0 +1,11 @@
+C:\projects\Store\WebStore.Tests\bin\Debug\WebStore.Tests.dll
+C:\projects\Store\WebStore.Tests\bin\Debug\WebStore.Tests.pdb
+C:\projects\Store\WebStore.Tests\bin\Debug\nunit.framework.dll
+C:\projects\Store\WebStore.Tests\bin\Debug\nunit.framework.xml
+C:\projects\Store\WebStore.Tests\obj\Debug\WebStore.Tests.dll
+C:\projects\Store\WebStore.Tests\obj\Debug\WebStore.Tests.pdb
+C:\projects\Store\Tests\WebStore.Tests\bin\Debug\WebStore.Tests.dll
+C:\projects\Store\Tests\WebStore.Tests\bin\Debug\WebStore.Tests.pdb
+C:\projects\Store\Tests\WebStore.Tests\obj\Debug\WebStore.Tests.dll
+C:\projects\Store\Tests\WebStore.Tests\obj\Debug\WebStore.Tests.pdb
+C:\projects\Store\Tests\WebStore.Tests\obj\Debug\WebStore.Tests.csprojResolveAssemblyReference.cache
